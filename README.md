@@ -1,5 +1,5 @@
 # INTERNPE
-## Task - 1
+## Task - 1 (Diabetes Prediction)
 ### Technology:
 - Programming Language: Python
 - Libraries: Scikit-learn, Pandas, NumPy
@@ -25,3 +25,25 @@ Train the model using the training data.
 
 5. Model Evaluation:
 Test accuracy score and make predictions from training dataset.
+
+## Task - 2 (Car Price Prediction)
+
+### Technology:
+
+- Programming Language: Python
+- Libraries: Scikit-learn, Pandas, NumPy, Matplotlib/Seaborn
+- Platform: Google Colab
+
+### Solution Approach:
+1. Data Collection:
+Loaded quikr_car.csv with 892 entries and 6 columns: name, company, year, Price, kms_driven, fuel_type.
+
+2. Data Preprocessing:
+Removed non-numeric values, filtered out invalid prices, handled missing values, and standardized the name column.
+
+3. Analysis: Explored relationships between car prices and features using visualizations.
+
+4. Model Training:
+Split data into features and target; trained a linear regression model with high R² score (~0.90).
+
+5. Output: Saved the model as LinearRegressionModel.pkl for future use.
