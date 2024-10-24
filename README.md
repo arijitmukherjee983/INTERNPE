@@ -47,3 +47,24 @@ Removed non-numeric values, filtered out invalid prices, handled missing values,
 Split data into features and target; trained a linear regression model with high R² score (~0.90).
 
 5. Output: Saved the model as LinearRegressionModel.pkl for future use.
+
+
+## Task - 3 (IPL Winning Team Prediction)
+
+### Technology:
+
+- Programming Language: Python
+- Libraries: Scikit-learn, Pandas, NumPy, Matplotlib/Seaborn
+- Platform: Google Colab
+
+### Solution Approach:
+1. Data Collection
+
+
+2. Data Preprocessing
+
+3. Analysis
+
+4. Model Training
+
+5. Output
